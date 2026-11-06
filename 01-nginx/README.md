@@ -5,5 +5,5 @@ the default start page with a custom one of your choice
 You may use any base image you like.
 
 Hints:
-use `docker build -t my-nginx .` to build image
-use `docker run -d -p80:80 my-nginx` to view result
+- use `docker build -t my-nginx .` to build image
+- use `docker run -d -p80:80 my-nginx` to view result
