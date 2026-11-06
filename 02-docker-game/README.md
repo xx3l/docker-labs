@@ -6,3 +6,6 @@ There are at least three approaches to building the image that should be demonst
 1. Build the game beforehand and "embed" the finished code into an Nginx image, resulting in an image that contains the game.
 2. Build the game during the image creation process. The resulting image contains a configured Nginx instance along with the ready-to-serve static game files.
 3. Include a script in the image that downloads and builds the game when the container starts; the container only becomes functional once this process is complete.
+
+Pleas add scripts for building image and for startig container. Use `make` to describe scenarios.
+`Makefile` file in root of lab folder is an example
